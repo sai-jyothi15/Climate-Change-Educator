@@ -8,8 +8,8 @@ const quickActionButtons = document.querySelectorAll('.quick-action-btn');
 const featureCards = document.querySelectorAll('.feature-card');
 
 // Configuration
-const API_KEY = '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';
-const API_URL = 'https://api.openai.com/v1/chat/completions';
+const API_KEY = ''
+const API_URL = ''
 
 // Climate change quizzes
 const quizzes = {
