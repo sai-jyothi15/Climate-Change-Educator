@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Change Educator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <h1>Climate Change Educator</h1>
+            </div>
+            <p class="subtitle">Learn, Understand, and Make a Difference</p>
+        </header>
+
+        <main>
+            <div class="chat-container">
+                <div class="chat-header">
+                    <div class="chat-header-content">
+                        <i class="fas fa-robot"></i>
+                        <span>AI Climate Assistant</span>
+                    </div>
+                    <div class="chat-actions">
+                        <button id="clear-chat" title="Clear Chat">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                        <button id="toggle-theme" title="Toggle Theme">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="chat-messages" id="chat-messages">
+                    <div class="message bot">
+                        <div class="message-content">
+                            <div class="welcome-message">
+                                <h3>Welcome to Climate Change Educator! 🌍</h3>
+                                <p>I can help you learn about climate change through:</p>
+                                <div class="feature-grid">
+                                    <div class="feature-card">
+                                        <i class="fas fa-book"></i>
+                                        <span>Information</span>
+                                    </div>
+                                    <div class="feature-card">
+                                        <i class="fas fa-question-circle"></i>
+                                        <span>Quizzes</span>
+                                    </div>
+                                    <div class="feature-card">
+                                        <i class="fas fa-lightbulb"></i>
+                                        <span>Scenarios</span>
+                                    </div>
+                                    <div class="feature-card">
+                                        <i class="fas fa-hands-helping"></i>
+                                        <span>Solutions</span>
+                                    </div>
+                                </div>
+                                <p>What would you like to explore?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-input-container">
+                    <div class="input-wrapper">
+                        <textarea id="user-input" placeholder="Type your question here..." rows="1"></textarea>
+                        <button id="send-button">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    <div class="quick-actions">
+                        <button class="quick-action-btn" data-action="quiz">
+                            <i class="fas fa-question-circle"></i>
+                            Take Quiz
+                        </button>
+                        <button class="quick-action-btn" data-action="scenario">
+                            <i class="fas fa-lightbulb"></i>
+                            Try Scenario
+                        </button>
+                        <button class="quick-action-btn" data-action="tips">
+                            <i class="fas fa-leaf"></i>
+                            Get Tips
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Powered by AI</span>
+                </div>
+                <div class="footer-section">
+                    <i class="fas fa-book"></i>
+                    <span>Data sourced from reliable climate science resources</span>
+                </div>
+                <div class="footer-section">
+                    <i class="fas fa-heart"></i>
+                    <span>Made with care for our planet</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
